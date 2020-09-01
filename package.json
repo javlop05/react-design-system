@@ -22,6 +22,7 @@
     "react-dom": "^16.0.0"
   },
   "dependencies": {
-    "@storybook/addon-docs": "^6.0.20"
+    "@storybook/addon-docs": "^6.0.20",
+    "prettier": "^2.1.1"
   }
 }

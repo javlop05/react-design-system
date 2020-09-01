@@ -1,19 +1,19 @@
 .badge {
-    border-radius: 10em;
-    background-color: limegreen;
-    padding: 0 .6em;
-    color: #ffffff;
-    font: status-bar;
+  border-radius: 10em;
+  background-color: limegreen;
+  padding: 0 0.6em;
+  color: #ffffff;
+  font: status-bar;
 }
 
 .success {
-    background-color: #5bb85c;
+  background-color: #5bb85c;
 }
 
 .warning {
-    background-color: #ffc10a;
+  background-color: #ffc10a;
 }
 
 .error {
-    background-color: #c52434;
+  background-color: #c52434;
 }
