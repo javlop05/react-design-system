@@ -1,10 +1,27 @@
-import React from "react";
-import Badge from "./Badge";
+import React from 'react';
+import Badge from './Badge';
 
-export default { title: "Badge" };
+export default {
+  title: 'Badge',
+  component: Badge,
+};
 
-export const successBadge = () => <Badge text="Success" type="success" />;
+const Template = (args) => <Badge {...args} />;
 
-export const warningBadge = () => <Badge text="Warning" type="warning" />;
+export const Success = Template.bind({});
+Success.args = {
+  text: 'Label',
+  type: 'success',
+};
 
-export const errorBadge = () => <Badge text="Error" type="error" />;
+export const Warning = Template.bind({});
+Warning.args = {
+  text: 'Be careful',
+  type: 'warning',
+};
+
+export const Error = Template.bind({});
+Error.args = {
+  text: 'Wrong',
+  type: 'error',
+};
