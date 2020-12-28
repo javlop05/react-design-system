@@ -1,0 +1,29 @@
+{
+  "name": "@lerma/button",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "javi <javilopezdelerma84@gmail.com>",
+  "homepage": "https://github.com/javlop05/react-design-system#readme",
+  "license": "ISC",
+  "main": "lib/button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javlop05/react-design-system.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/javlop05/react-design-system/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}

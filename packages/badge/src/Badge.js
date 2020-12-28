@@ -10,7 +10,7 @@ function Badge({ text, type }) {
 
 Badge.propTypes = {
   type: PropTypes.oneOf(TYPES),
-  text: PropTypes.string,
+  text: PropTypes.string.isRequired,
 };
 
 export default Badge;

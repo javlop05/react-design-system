@@ -1,0 +1,25 @@
+{
+  "name": "@lerma/badge",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "javi <javilopezdelerma84@gmail.com>",
+  "homepage": "https://github.com/javlop05/react-design-system#readme",
+  "license": "ISC",
+  "main": "lib/Badge.js",
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javlop05/react-design-system.git"
+  },
+  "scripts": {
+    "build": "babel src --root-mode upward --ignore */*.test.js,**/*.test.js,*/*.stories.js,**/stories.js --out-dir dist --delete-dir-on-start"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
