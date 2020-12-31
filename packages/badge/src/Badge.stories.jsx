@@ -6,7 +6,7 @@ export default {
   component: Badge,
 };
 
-const Template = (args) => <Badge {...args} />;
+const Template = (args) => <Badge text={args.text} type={args.type} />;
 
 export const Success = Template.bind({});
 Success.args = {

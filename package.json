@@ -28,6 +28,10 @@
   "resolutions": {
     "babel-core": "^7.0.0-bridge.0"
   },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.11.6",
@@ -39,9 +43,14 @@
     "@storybook/react": "^6.0.21",
     "babel-core": "7.0.0-bridge.0",
     "chromatic": "^5.1.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "lerna": "^3.22.1",
-    "prettier": "^2.1.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "prettier": "^2.1.1"
   }
 }

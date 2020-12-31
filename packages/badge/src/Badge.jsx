@@ -9,7 +9,7 @@ function Badge({ text, type }) {
 }
 
 Badge.propTypes = {
-  type: PropTypes.oneOf(TYPES),
+  type: PropTypes.oneOf(TYPES).isRequired,
   text: PropTypes.string.isRequired,
 };
 
