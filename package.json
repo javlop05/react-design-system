@@ -34,8 +34,7 @@
   "lint-staged": {
     "*.{js,jsx}": [
       "prettier --write",
-      "yarn lint",
-      "git add"
+      "yarn lint"
     ]
   },
   "resolutions": {
