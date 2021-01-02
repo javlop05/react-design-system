@@ -1,7 +1,7 @@
-'use strict';
+// 'use strict';
 
-const button = require('..');
+// const button = require('..');
 
-describe('button', () => {
-    it('needs tests');
-});
+// describe('button', () => {
+//     it('needs tests');
+// });
