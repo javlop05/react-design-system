@@ -20,7 +20,7 @@
     "build": "babel src --root-mode upward --ignore */*.test.js,**/*.test.js,*/*.stories.js,**/stories.js --out-dir dist --delete-dir-on-start"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.6.0"
   },
   "dependencies": {
     "prop-types": "^15.7.2"

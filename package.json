@@ -41,8 +41,8 @@
     "babel-core": "^7.0.0-bridge.0"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",

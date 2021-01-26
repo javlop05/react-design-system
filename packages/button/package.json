@@ -24,7 +24,7 @@
     "url": "https://github.com/javlop05/react-design-system/issues"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.6.0"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
